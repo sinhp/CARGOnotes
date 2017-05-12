@@ -1,1 +1,7 @@
 markdown: rdiscount
+
+title: Musicianshipresources
+description: 
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-dinky

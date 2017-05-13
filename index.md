@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Musicianship resources
+title: Mathematical scribblings
 ---
 
 

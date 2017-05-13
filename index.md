@@ -6,7 +6,13 @@ title: Mathematical scribblings
 
 This site contains online resources for the Musicianship courses at Charleston Southern University, including [Musicianship II][musi199] and [Musicianship IV][musi299], spring 2013. This site is still being built, so materials will be added to the site regularly, and pages will be updated as necessary.	
 
+
+
+
 # Introduction #
+[Sample math][samplemath]
+
+
 
 [Introduction to the inverted musicianship course (for students).][invertedCourse]  
 [Introduction to this "textbook" (for instructors & scholars).][introSite]  
@@ -111,6 +117,7 @@ Writing a music-analytical essay.
 [Analyzing poetry.][poetry]  
 [Interpreting Scripture – introductory resources.][biblicalHermeneutics]  
 
+[samplemath]: samplemath.html
 [musi199]: http://kshaffer.github.com/musi199
 [musi299]: http://kshaffer.github.com/musi299
 

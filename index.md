@@ -10,7 +10,7 @@ This site ...
 
 
 # Introduction #
-[Sample math][samplemath]
+[Sample maths][samplemaths]
 
 
 
@@ -33,7 +33,7 @@ Writing a music-analytical essay.
 
 
 
-
+[samplemaths]: samplemaths.html
 [meter]: meter.html
 [modulation]: Modulation.html
 

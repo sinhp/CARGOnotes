@@ -1,7 +1,7 @@
 markdown: kramdown
 
-title: Musicianshipresources
+title: Mathematical scribblings
 description: 
-google_analytics: 
+google_analytics: true
 show_downloads: true
 theme: jekyll-theme-dinky

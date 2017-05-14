@@ -17,14 +17,4 @@ $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
     |\psi_2\rangle = c|0\rangle + d|1\rangle
 \end{align}
 
-\begin{equation} %diagram 4
-\begin{tikzcd}[column sep = large]
-&& D \arrow[dddl, bend right= 15, swap, "x"] \arrow[dd, "y"] \arrow[dddr, bend left=15, "m"] \\ 
-\\
-&& g^*(E) \arrow[dl, near start, dotted, swap, "l(\alpha)"] \arrow[dr,"p^*g"] \arrow[dd]  \arrow[rd, phantom, bend right= 25, ""{name=qux}] \\
-& f^* (E) \arrow[rr, crossing over, bend right=15, near end,swap, "p^*f"] \arrow[rr, bend left=1, phantom, ""{name=baz}] \arrow[dd, swap, "f^*p"] \arrow[dr, phantom, bend left= 5,""{name=waldo}] \arrow[dr, phantom, bend right= 55, ""{name=fred}] & & E  \arrow[dd, "p"]  \arrow[Rightarrow, from=baz, to=qux, swap, "\altil" ] \arrow[Rightarrow, from=fred, to=waldo, swap, "\iso" ] \\
-&& A \arrow[dl, equal, ""{name=foo}] \arrow[rd, near start, "g"]\arrow[dl, phantom, bend left=25, ""{name=alex}] \arrow[dr, phantom, bend right=25, ""{name=bar}] & &  \\
-& A \arrow[rr, swap, bend right=15,  "f", ""{name=alfred}] \arrow[rr, swap, bend left=1, phantom, ""{name=hoax}]   & & B \arrow[from=uu, crossing over] 
-\arrow[Rightarrow, from=hoax, to=bar, swap, "\alpha"]\\
-\end{tikzcd}
-\end{equation}
+Let's take $\CK= \Cat$  to be the strict $2$-category of categories, functors and natural transformations. Let $P:E \to B$ is a cloven Grothendieck fibration. We will show $P$ is a strict fibration in the sense of remark above. Let $B^\two$ be the arrow category (of $B$), $s:B^\two \to B$ the domain functor and $t: B^\two \to B$ the codomain functor  and $\alpha: s \Rightarrow t$ the canonical natural transformation whose $f$-component is $f$ itself for any object $f: a \to b$ of $B^{\two}$ .  

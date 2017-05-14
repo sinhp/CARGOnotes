@@ -35,5 +35,5 @@ Writing a music-analytical essay.
 
 
 [meter]: meter.html
-[modulation]: Modulation.md
+[modulation]: Modulation.html
 

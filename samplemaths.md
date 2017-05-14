@@ -5,7 +5,7 @@ author: Sina Hazratpour
 use_math: true
 ---
 
-{{ Sample maths }}
+Sample maths 
 ================
   
 

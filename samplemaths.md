@@ -2,8 +2,6 @@
 layout: post
 title: "Test math"
 author: Sina Hazratpour
-category: misc
-tags: [test]
 use_math: true
 ---
 

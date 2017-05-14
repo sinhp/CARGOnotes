@@ -1,11 +1,12 @@
 ---
 layout: post
-title: "Test math"
+title: "Sample maths"
 author: Sina Hazratpour
 use_math: true
 ---
 
-
+{{ Sample maths }}
+================
   
 
 When \(a \ne 0 \), there are two solutions to \(ax^2 + bx + c = 0\) and they are

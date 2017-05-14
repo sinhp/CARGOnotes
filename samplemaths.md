@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Test math"
-author: Haixing Hu
+author: Sina Hazratpour
 category: misc
 tags: [test]
 use_math: true

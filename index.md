@@ -21,8 +21,9 @@ title: Mathematical scribblings
 
 
 # Philosophy of mathematics #
--[Topos, being, and existence.][TBE]
--[What is order ontologically?][Order-onto-logically]
+
+[Topos, being, and existence.][TBE]
+[What is order ontologically?][Order-onto-logically]
 
 
 

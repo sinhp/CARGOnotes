@@ -10,7 +10,6 @@ title: Mathematical scribblings
 
 
 
-
 # CARGO notes #
 
 

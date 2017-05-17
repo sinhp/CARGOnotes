@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Topos, being, and existence
 author: Sina Hazratpour
 category: research

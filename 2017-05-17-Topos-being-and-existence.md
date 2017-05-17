@@ -3,7 +3,7 @@ layout: post
 title: Topos, being, and existence
 author: Sina Hazratpour
 category: research
-tags: philosophy of mathematics, Topos, Badiou
+tags: 
 use_math: true
 ---
 

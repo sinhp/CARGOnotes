@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Mathematical scribblings
+
 ---
 
 
@@ -10,15 +11,13 @@ This site ...
 
 
 # Introduction #
-[Sample maths][samplemaths]
+[Topos, being, and existence][TBE]
 
 
 
 
 # Fundamentals #
 
-[Meter and time signatures.][meter]  
-[Modulation.][modulation]
 
 
 
@@ -26,14 +25,8 @@ This site ...
 
 # Writing #
 
-Copyright and fair use.  
-Style guidelines.  
-Writing blog comments.  
-Writing a music-analytical essay.  
 
 
 
-[samplemaths]: samplemaths.html
-[meter]: meter.html
-[modulation]: Modulation.html
 
+[TBE]: Topos-being-and-existence.html

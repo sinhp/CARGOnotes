@@ -34,5 +34,5 @@ This site is divided into four topics.
 
 
 
-[TBE]: 2017-05-17-Topos-being-and-existence.html
-[Order-onto-logically]: 2017-05-17-The-ontology-of-order-relation.html
+[TBE]: _posts/2017-05-17-Topos-being-and-existence.html
+[Order-onto-logically]: _posts/2017-05-17-The-ontology-of-order-relation.html

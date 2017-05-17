@@ -4,6 +4,7 @@ title: Mathematical scribblings
 ---
 
 
+This site is divided into four topics.
 
 
 

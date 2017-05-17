@@ -6,9 +6,6 @@ title: Mathematical scribblings
 ---
 
 <div class="page-header">
-  <div class="pull-right">
-    {% include contact_icons %}
-  </div>
   <h1>
     {{ site.author.name }}
     {% if site.tagline %}<br/><small>{{ site.tagline }}</small>{% endif %}

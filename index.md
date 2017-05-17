@@ -4,7 +4,7 @@ title: Mathematical scribblings
 ---
 
 
-Best
+
 
 
 

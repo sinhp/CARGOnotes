@@ -23,8 +23,10 @@ This site is divided into four topics.
 
 # Philosophy of mathematics #
 
+
 [Topos, being, and existence.][TBE]
-[What is order ontologically?][Order-onto-logically]
+
+[The ontology of order relation ][Order-onto-logically]
 
 
 
@@ -33,4 +35,4 @@ This site is divided into four topics.
 
 
 [TBE]: 2017-05-17-Topos-being-and-existence.html
-[Order-onto-logically]: 2017-05-17-What-is-order-onto-logically?.html
+[Order-onto-logically]: 2017-05-17-The-ontology-of-order-relation.html

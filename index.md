@@ -33,4 +33,4 @@ This site is divided into four topics.
 
 
 [TBE]: 2017-05-17-Topos-being-and-existence.html
-[Order-onto-logically]: 2017-05-17-What-is-order-onto-logically?
+[Order-onto-logically]: 2017-05-17-What-is-order-onto-logically?.html

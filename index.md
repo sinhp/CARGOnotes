@@ -25,7 +25,7 @@ This site is divided into four topics.
 
 
 [Topos, being, and existence.][TBE]
-[The ontology of order relation ][Order-onto-logically]
+[The ontology of order relation.][Order-onto-logically]
 
 
 

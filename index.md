@@ -5,27 +5,26 @@ title: Mathematical scribblings
 ---
 
 
-This site ...
+
+
+# CARGO notes #
 
 
 
 
-# Introduction #
+
+# Research #
+
+
+
+
+
+# Philosophy of mathematics #
 [Topos, being, and existence][TBE]
 
 
 
-
-# Fundamentals #
-
-
-
-
-
-
-# Writing #
-
-
+# Recreational mathematics 
 
 
 

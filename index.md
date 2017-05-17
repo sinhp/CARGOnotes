@@ -1,5 +1,8 @@
 
-
+---
+layout: post
+title: Mathematical scribblings
+---
 
 
 

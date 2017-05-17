@@ -7,7 +7,7 @@ tags: philsoophy of mathematics, Topos, Badiou]
 use_math: true
 ---
 
-{{ Topos, being, and existence }}
+{{ page.title }}
 ================
 
 

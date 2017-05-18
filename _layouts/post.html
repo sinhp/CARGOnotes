@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Mathematical scribblings</title>
+    
 
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
@@ -20,6 +20,14 @@
     {% endif %}	  
 	
      
+<h1>{{ page.title }}</h1>	
+	<ul class="posts">
+	  {% for post in site.posts %}
+	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	  {% endfor %}
+	</ul>	  
+	  
+	  
 	  
 	
 	  
@@ -39,9 +47,9 @@
   </head>
   <body>
     <div class="wrapper">
-      <header>
+  <!--    <header>
         <h1><a href="index.html">Mathematical scribblings</a></h1>
-      </header>
+      </header> -->
 
       <section>  
   {{ content }}

@@ -15,14 +15,16 @@ Toposes, geometric morphisms, and natural transforamtions form a 2-category deno
 
 ### Example: 
 Suppose $X$ is a (non-$T_1$) topological space  We define the following (non-trivial) _partial_ order on points of $X$. 
-$$ x \leq x'  \ \ \text{iff every neighbourhood of} \ \ x  \ \ \text{contains} \ \ x'$$. 
-
+ \begin{equation} 
+ x \leq x'  \ \ \text{iff every neighbourhood of} \ \ x  \ \ \text{contains} \ \ x'
+ \end{equation}
+ 
 We can extend this order to all maps between topological spaces. Suppose $f,g: X \rightrightarrows Y$ are (continuous) maps. Define
 
 
 
 \begin{equation}\label{def-order on maps}
- f \leq g  \ \  \text{iff} \ \ f(x) \leq g(x) \ \ \text{for every} x \ \ \in X 
+ f \leq g  \ \  \text{iff} \ \ f(x) \leq g(x) \ \ \text{for every} x \in X 
 \end{equation} 
 
 

@@ -13,7 +13,7 @@ use_math: true
 
 Toposes, geometric morphisms, and natural transforamtions form a 2-category denoted by $\mathfrak{Top}$. Note that for each pair of toposes $D$ and $E$, $\mathbf{Geom}(D,E)$ is a large though locally small category. 
 
-### Example: 
+#### Example: 
 Suppose $X$ is a (non-$T_1$) topological space  We define the following (non-trivial) _partial_ order on points of $X$. 
  \begin{equation} 
  x \leq x'  \ \ \text{iff every neighbourhood of} \ \ x  \ \ \text{contains} \ \ x'
@@ -30,6 +30,10 @@ We can extend this order to all maps between topological spaces. Suppose $f,g: X
 
 
 A ramification of above defintion, which is straightforward to see, is that $f \leq g$ if and only if $f^{-1} (V) \subseteq g^{-1}(V)$ for evey open set $V$ of $Y$.  Notice that $f$ and $g$ give us $f_{\ast},g_{\ast}: Sh(X) \rightrightarrows Sh(Y)$ which are _pushfoward_ geometric morphisms along $f$ and $g$ respectively. 
+
+Thus, if $f \leq g$, then  for any sheaf $P$ on $X$, and any open $V$ of $Y$, we get the restriction 
+$$g_{\ast}(P)(V)=P(g^{-1}(V)) \rightarrow f_{\ast}(P)(V)=P(f^{-1}(V))$$.
+This yields a natural transforamtion $f \Rightarrow g$ in $\mathbf{Geom}(Sh(X),Sh(Y))$. 
 
 
 

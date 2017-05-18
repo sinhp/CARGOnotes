@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: The 2-category of toposes
 author: Sina Hazratpour
 category: research

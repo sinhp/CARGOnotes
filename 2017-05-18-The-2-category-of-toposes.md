@@ -49,7 +49,9 @@ This yields a natural transforamtion $f \Rightarrow g$ in $\mathbf{Geom}(Sh(X),S
 From the construction above we obtain a functor $$ \mathbf{Top}(X,Y) \rightarrow \mathbf{Geom}(Sh(X),Sh(Y))$$. 
 
 
-
+As a consequence, it is generally too much to expect diagrams in Top to commute on the nose", i.e up to
+equality { commuting is usually only up to isomorphism. In broad terms, this is because
+in a category equality between ob jects is less important that isomorphism
 
 
 

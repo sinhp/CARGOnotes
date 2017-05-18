@@ -29,8 +29,7 @@ We can extend this order to all maps between topological spaces. Suppose $f,g: X
 
 
 
-A ramification of above defintion, which is straightforward to see, is that $f \leq g$ if and only if $f^{-1} (V) \subseteq g^{-1}(V)$ for evey open set $V$ of $Y$.  Notice that $f$ and $g$ give us $f_{*},g_{*}: Sh(X) \rightrightarrows Sh(Y)$ 
-which 
+A ramification of above defintion, which is straightforward to see, is that $f \leq g$ if and only if $f^{-1} (V) \subseteq g^{-1}(V)$ for evey open set $V$ of $Y$.  Notice that $f$ and $g$ give us $f_{\ast},g_{\ast}: Sh(X) \rightrightarrows Sh(Y)$ which are _pushfoward_ geometric morphisms along $f$ and $g$ respectively. 
 
 
 

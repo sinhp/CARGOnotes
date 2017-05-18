@@ -24,7 +24,7 @@ We can extend this order to all maps between topological spaces. Suppose $f,g: X
 
 
 \begin{equation}\label{def-order on maps}
- f \leq g  \ \  \text{iff} \ \ f(x) \leq g(x) \ \ \text{for every} x \in X 
+ f \leq g  \ \  \text{iff} \ \ f(x) \leq g(x) \ \ \text{for every} \  x \in X 
 \end{equation} 
 
 

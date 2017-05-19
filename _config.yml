@@ -5,3 +5,9 @@ description:
 google_analytics: true
 show_downloads: true
 theme: jekyll-theme-cayman
+
+css_class: 'highlight'
+
+sass:
+  style: :expanded # You might prefer to minify using :compressed
+

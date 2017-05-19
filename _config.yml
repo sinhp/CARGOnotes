@@ -7,6 +7,7 @@ show_downloads: true
 theme: jekyll-theme-merlot
 email:   sinahazratpour@gmail.com
 facebook: sina.bham
+github: sinhp/sinhp.github.io.
 css_class: 'highlight'
 
 sass:

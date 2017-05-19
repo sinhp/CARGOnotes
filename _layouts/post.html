@@ -73,6 +73,11 @@
       ga('send', 'pageview');
     </script>    
   </body>
+	
+{% if page.comments %}
+{% include disqus.html %}	 
+{% endif %}
+	
 </html>
 
 

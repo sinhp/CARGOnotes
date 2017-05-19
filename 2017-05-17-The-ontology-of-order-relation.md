@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: The ontology of order relation 
 author: Sina Hazratpour
 category: research

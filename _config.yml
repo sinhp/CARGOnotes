@@ -1,7 +1,8 @@
 markdown: kramdown
 
 title: Mathematical scribblings
-description: 
+description: A math blog
+avatar: https://avatars2.githubusercontent.com/u/12698604?v=3
 google_analytics: true
 show_downloads: true
 theme: jekyll-theme-merlot

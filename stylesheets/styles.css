@@ -201,10 +201,18 @@ footer {
 
 @media print, screen and (max-width: 960px) {
   
-  div.wrapper {
-    width:auto;
-    margin:0;
+  .wrapper-masthead {
+  margin-bottom: 50px;
+}
+
+.masthead {
+  padding: 20px 0;
+  border-bottom: 1px solid $lightGray;
+
+  @include mobile {
+    text-align: center;
   }
+}
   
   header, section, footer {
     float:none;

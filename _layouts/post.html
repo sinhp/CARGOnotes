@@ -35,16 +35,23 @@
   </head>
   <body>
     <div class="wrapper-masthead">
-     
+      <header class="masthead clearfix">
+          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+
+          <div class="site-info">
+            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+            <p class="site-description">{{ site.description }}</p>
+          </div>
+
+          <nav>
+             
+	     <a href="https://sinhp.github.io/Mathematical-scribblings/">Mathematical scribblings  </a>  
+	      
+          </nav>
+</header>
         
         
-     <header>    
-        <ul>
-          <li><a href="https://sinhp.github.io">Back to<strong>Main page</strong></a></li>
-          <li><a href="https://www.cs.bham.ac.uk/research/groupings/theory/">Go to<strong>Bham CS</strong></a></li>
-          <li><a href="https://github.com/sinhp/Mathematical-scribblings">View on<strong>Github</strong></a></li>
-        </ul>
-      </header>
+    
 
  <div id="main" role="main" class="container">
       {{ content }}

@@ -5,7 +5,8 @@ description:
 google_analytics: true
 show_downloads: true
 theme: jekyll-theme-merlot
-
+email:   sinahazratpour@gmail.com
+facebook: sina.bham
 css_class: 'highlight'
 
 sass:

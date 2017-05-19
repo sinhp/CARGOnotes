@@ -31,7 +31,7 @@ body {
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
+  border-bottom: 1px solid color:#393939;
 
   @include mobile {
     text-align: center;
@@ -128,32 +128,7 @@ a small {
 
 
 
-nav {
-  float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue;
-  font-size: 18px;
 
-  @include mobile {
-    float: none;
-    margin-top: 9px;
-    display: block;
-    font-size: 16px;
-  }
-
-  a {
-    margin-left: 20px;
-    color: $darkGray;
-    text-align: right;
-    font-weight: 300;
-    letter-spacing: 1px;
-
-    @include mobile {
-      margin: 0 10px;
-      color: $blue;
-    }
-  }
-}
 
 
 
@@ -164,6 +139,7 @@ nav {
 
 footer {
   width:300px;
+  float: none ;	
   position:fixed;
   bottom:50px;
 }

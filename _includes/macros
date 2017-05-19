@@ -12,4 +12,5 @@ $$
 \newcommand{\X}{\rv z} % The random variable x 
 \newcommand{\Y}{\rv Z} % The random variable y
 \newcommand{\estim}[1]{\widehat{#1}} % An estimator
+\newcommand{\Geom}{\mathbf{Geom}} 
 $$

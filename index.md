@@ -14,13 +14,13 @@ title: Mathematical scribblings
 
 
 
-
+----------------------------------------------
 # Research #
 
 [The 2-category of toposes.][2-cat Top]
 
 
-
+----------------------------------------------
 # Philosophy of mathematics #
 
 
@@ -29,7 +29,7 @@ title: Mathematical scribblings
 [The ontology of order relation.][Order-onto-logically]
 
 
-
+---------------------------------------------
 # Recreational mathematics 
 
 

@@ -48,8 +48,7 @@ This yields a natural transforamtion $f \Rightarrow g$ in $\Geom(Sh(X),Sh(Y))$.
 
 
 
-
-#### Remark
+#### Remark.
 From the construction above we obtain a functor $$ \mathbf{Top}(X,Y) \rightarrow \mathbf{Geom}(Sh(X),Sh(Y))$$. 
 
 
@@ -59,5 +58,9 @@ in a category equality between ob jects is less important that isomorphism
 
 
 $\riskn(\theta):= \frac  1n \sum \loss(Z_i;\theta)$, and $\estim{\theta^*}:= \argmin{\theta}{\riskn(\theta)}$
+
+---------------------------------------------------------------------------------
+
+
 
 

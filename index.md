@@ -4,7 +4,7 @@ title: Mathematical scribblings
 ---
 
 
-This site is divided into four topics.
+## _For the best mobile experience please use the landscape mode for reading._
 
 
 

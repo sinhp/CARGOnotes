@@ -5,7 +5,7 @@ title: Mathematical scribblings
 
 
 #### _For the best experience for reading the posts on your mobile phone please use the landscape mode!_
-
+----------------------------------------------------------------------------------------------------
 
 
 

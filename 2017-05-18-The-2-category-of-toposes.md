@@ -15,13 +15,12 @@ comments: true
 {% include macros %}
 
 Toposes, geometric morphisms, and natural transforamtions form a 2-category denoted by $\mathfrak{Top}$. Note that for each pair of toposes $D$ and $E$, $\mathbf{Geom}(D,E)$ is a large though locally small category. 
+------------------------------------------------------------------
 
 
 
 
-
-#### Example
-------------
+#### Example.  
 Suppose $X$ is a (non-$T_1$) topological space  We define the following (non-trivial) _partial_ order on points of $X$. 
  \begin{equation} 
  x \leq x'  \ \ \text{iff every neighbourhood of} \ \ x  \ \ \text{contains} \ \ x'
@@ -42,13 +41,13 @@ A ramification of above defintion, which is straightforward to see, is that $f \
 Thus, if $f \leq g$, then  for any sheaf $P$ on $X$, and any open $V$ of $Y$, we get the restriction 
 $$g_{\ast}(P)(V)=P(g^{-1}(V)) \rightarrow P(f^{-1}(V))= f_{\ast}(P)(V)$$.
 This yields a natural transforamtion $f \Rightarrow g$ in $\Geom(Sh(X),Sh(Y))$. 
+----------------------------------------------------------------------------------
 
 
 
 
 
 #### Remark
------------
 From the construction above we obtain a functor $$ \mathbf{Top}(X,Y) \rightarrow \mathbf{Geom}(Sh(X),Sh(Y))$$. 
 
 

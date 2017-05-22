@@ -15,4 +15,4 @@ comments: true
 
 
 
-Suppose $T: \frk{C} \raw C$ 
+Suppose $T: \cat{C} \raw  \catC$ 

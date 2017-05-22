@@ -2,12 +2,9 @@ $$
 \newcommand{\rv}[1]{\mathbf{#1}} 
 \newcommand{\x}{\rv x} 
 \newcommand{\y}{\rv y} 
-
-\newcommand{\estim}[1]{\widehat{#1}} % An estimator
 \newcommand{\raw}{\rightarrow}
 \newcommand{\xraw}{\xrightarrow}
 \newcommand{\Raw}{\Rightarrow}
-
 \renewcommand{\dot}{\centerdot}
 \newcommand{\pr}{^\prime}
 \newcommand{\op}[1]{#1^{\mathrm{op}}}
@@ -15,7 +12,6 @@ $$
 \newcommand{\oo}{\circ}
 \newcommand{\intvl}{\mathbb{I}}
 \newcommand{\yon}{\mbox{\textit{y}}}
-
 \newcommand{\Set}{\mbox{\textbf{Set}}
 \newcommand{\Topos}{{\mathfrak{Top}}}
 \newcommand{\BTopos}{{\mathfrak{BTop}}}

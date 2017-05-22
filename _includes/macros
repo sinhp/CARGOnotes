@@ -32,5 +32,5 @@ $$
 \newcommand{\frk}[1]{\mathfrak{#1}}
 
 %---------------Operators---------------
-\newcommand{\psh}{\mathscr{Psh}}
+\newcommand{\psh}{\textit{Psh}}
 $$

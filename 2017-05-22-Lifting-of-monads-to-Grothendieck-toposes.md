@@ -15,4 +15,4 @@ comments: true
 
 
 
-Suppose $T: \cal{C} \raw C$ 
+Suppose $T: C \raw C$ 

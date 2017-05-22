@@ -41,7 +41,7 @@ A ramification of above defintion, which is straightforward to see, is that $f \
 
 Thus, if $f \leq g$, then  for any sheaf $P$ on $X$, and any open $V$ of $Y$, we get the restriction 
 $$g_{\ast}(P)(V)=P(g^{-1}(V)) \rightarrow P(f^{-1}(V))= f_{\ast}(P)(V)$$.
-This yields a natural transforamtion $f \Rightarrow g$ in $\Geom(Sh(X),Sh(Y))$. 
+This yields a natural transforamtion $f \Rightarrow g$ in $\geom(Sh(X),Sh(Y))$. 
 
 ----------------------------------------------------------------------------------
 

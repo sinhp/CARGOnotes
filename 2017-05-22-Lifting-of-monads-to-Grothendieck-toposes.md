@@ -15,4 +15,4 @@ comments: true
 
 
 
-Suppose $T: C \raw C$ 
+Suppose $T: \frk{C} \raw C$ 

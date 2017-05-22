@@ -6,18 +6,12 @@ $$
 \newcommand{\Y}{\rv Y} % The random variable y
 \newcommand{\z}{\rv z} % The random variable x 
 \newcommand{\Z}{\rv Z} % The random variable y
-
-
-% arrows ----------------------
-
+% arrows 
 \newcommand{\estim}[1]{\widehat{#1}} % An estimator
 \newcommand{\raw}{\rightarrow}
 \newcommand{\xraw}{\xrightarrow}
 \newcommand{\Raw}{\Rightarrow}
-
-
-% symbols  --------------------
-
+% symbols 
 \renewcommand{\dot}{\centerdot}
 \newcommand{\pr}{^\prime}
 \newcommand{\op}[1]{#1^{\mathrm{op}}}
@@ -25,9 +19,7 @@ $$
 \newcommand{\oo}{\circ}
 \newcommand{\intvl}{\mathbb{I}}
 \newcommand{\yon}{\mbox{\textit{y}}}
-
-% categories ------------------------
-
+% categories 
 \newcommand{\Set}{\mbox{\textbf{Set}}
 \newcommand{\Topos}{{\mathfrak{Top}}}
 \newcommand{\BTopos}{{\mathfrak{BTop}}}

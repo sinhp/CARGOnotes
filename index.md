@@ -10,7 +10,7 @@ title: Mathematical scribblings
 
 # CARGO notes #
 
-
+[Lifting of monads to Grothendieck toposes][lift-monad-topos]
 
 
 ----------------------------------------------
@@ -42,3 +42,4 @@ title: Mathematical scribblings
 [TBE]: 2017-05-17-Topos-being-and-existence.html
 [Order-onto-logically]: 2017-05-17-The-ontology-of-order-relation.html
 [2-cat Top]: 2017-05-18-The-2-category-of-toposes.html
+[lift-monad-topos]: 2017-05-22-Lifting-of-monads-to-Grothendieck-toposes.html

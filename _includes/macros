@@ -25,8 +25,13 @@ $$
 \newcommand{\ob}{\mathbf{Ob}}
 \newcommand{\bun}{\mathbf{Bun}} 
 \newcommand{\Geom}{\mathbf{Geom}}
+
 %----------------cats---------------------
 \newcommand{\cat}[1]{\mathcal{#1}}
 \newcommand{\scr}[1]{\mathscr{#1}}
 \newcommand{\frk}[1]{\mathfrak{#1}}
+
+%---------------Operators---------------
+\newcommand{\Psh}{\mbox{\textit{Psh}}}
+\newcommand{\Sh}{\mbox{\textit{Sh}}}
 $$

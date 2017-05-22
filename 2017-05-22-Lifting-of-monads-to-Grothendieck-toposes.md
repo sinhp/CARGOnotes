@@ -16,4 +16,4 @@ comments: true
 
 
 
-Suppose $T: \calC \to C$ 
+Suppose $T: \cal C \to C$ 

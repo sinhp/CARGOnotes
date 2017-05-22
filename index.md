@@ -4,8 +4,7 @@ title: Mathematical scribblings
 ---
 
 
-#### _For the best experience for reading the posts on your mobile phone please use the landscape mode!_
-----------------------------------------------------------------------------------------------------
+
 
 
 
@@ -32,6 +31,10 @@ title: Mathematical scribblings
 ---------------------------------------------
 # Recreational mathematics 
 
+
+
+#### _For the best experience for reading the posts on your mobile phone please use the landscape mode!_
+----------------------------------------------------------------------------------------------------
 
 
 [TBE]: 2017-05-17-Topos-being-and-existence.html

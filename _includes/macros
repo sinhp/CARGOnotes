@@ -3,9 +3,9 @@ $$
 \newcommand{\x}{\rv x} 
 \newcommand{\y}{\rv y} 
 %-------------------arrows---------------------
-\newcommand{\raw}{\rightarrow}
+\newcommand{\to}{\rightarrow}
 \newcommand{\xraw}{\xrightarrow}
-\newcommand{\Raw}{\Rightarrow}
+\newcommand{\To}{\Rightarrow}
 %----------------symbols----------------------
 \renewcommand{\dot}{\centerdot}
 \newcommand{\pr}{^\prime}

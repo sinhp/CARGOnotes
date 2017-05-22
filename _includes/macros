@@ -1,17 +1,13 @@
 $$
 \newcommand{\rv}[1]{\mathbf{#1}} 
-\newcommand{\x}{\rv x} % The random variable x 
-\newcommand{\y}{\rv y} % The random variable x 
-\newcommand{\X}{\rv X} % The random variable x 
-\newcommand{\Y}{\rv Y} % The random variable y
-\newcommand{\z}{\rv z} % The random variable x 
-\newcommand{\Z}{\rv Z} 
-% arrows 
+\newcommand{\x}{\rv x} 
+\newcommand{\y}{\rv y} 
+
 \newcommand{\estim}[1]{\widehat{#1}} % An estimator
 \newcommand{\raw}{\rightarrow}
 \newcommand{\xraw}{\xrightarrow}
 \newcommand{\Raw}{\Rightarrow}
-% symbols 
+
 \renewcommand{\dot}{\centerdot}
 \newcommand{\pr}{^\prime}
 \newcommand{\op}[1]{#1^{\mathrm{op}}}
@@ -19,7 +15,7 @@ $$
 \newcommand{\oo}{\circ}
 \newcommand{\intvl}{\mathbb{I}}
 \newcommand{\yon}{\mbox{\textit{y}}}
-% categories 
+
 \newcommand{\Set}{\mbox{\textbf{Set}}
 \newcommand{\Topos}{{\mathfrak{Top}}}
 \newcommand{\BTopos}{{\mathfrak{BTop}}}

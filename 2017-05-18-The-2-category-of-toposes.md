@@ -57,7 +57,7 @@ equality { commuting is usually only up to isomorphism. In broad terms, this is 
 in a category equality between ob jects is less important that isomorphism
 
 
-$\riskn(\theta):= \frac  1n \sum \loss(Z_i;\theta)$, and $\estim{\theta^*}:= \argmin{\theta}{\riskn(\theta)}$
+$\x$ 
 
 ---------------------------------------------------------------------------------
 

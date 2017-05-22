@@ -13,10 +13,10 @@ $$
 \newcommand{\intvl}{\mathbb{I}}
 \newcommand{\yon}{\mbox{\textit{y}}}
 \newcommand{\Set}{\mbox{\textbf{Set}}
-\newcommand{\Topos}{{\mathfrak{Top}}}
-\newcommand{\BTopos}{{\mathfrak{BTop}}}
-\newcommand{\Con}{{\mathfrak{Con}}}
-\newcommand{\Pos}{{\mathfrak{Poset}}}
+\newcommand{\Topos}{\mathfrak{Top}}
+\newcommand{\BTopos}{\mathfrak{BTop}}
+\newcommand{\Con}{\mathfrak{Con}}
+\newcommand{\Pos}{\mathfrak{Poset}}
 \newcommand{\thT}{\mathbb{T}}   
 \newcommand{\Mod}{\mathbf{Mod}}
 \newcommand{\Th}{\mathbf{Th}}

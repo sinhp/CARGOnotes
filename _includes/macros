@@ -2,15 +2,18 @@ $$
 \newcommand{\rv}[1]{\mathbf{#1}} 
 \newcommand{\x}{\rv x} 
 \newcommand{\y}{\rv y} 
+%-------------------arrows---------------------
 \newcommand{\raw}{\rightarrow}
 \newcommand{\xraw}{\xrightarrow}
 \newcommand{\Raw}{\Rightarrow}
+%----------------symbols----------------------
 \renewcommand{\dot}{\centerdot}
 \newcommand{\pr}{^\prime}
 \newcommand{\op}[1]{#1^{\mathrm{op}}}
 \newcommand{\Hom}{\textsl{Hom}}
 \newcommand{\oo}{\circ}
 \newcommand{\intvl}{\mathbb{I}}
+%-----------------categories---------------- (Do not use \mbox)
 \newcommand{\Topos}{\mathfrak{Top}}
 \newcommand{\BTopos}{\mathfrak{BTop}}
 \newcommand{\Con}{\mathfrak{Con}}

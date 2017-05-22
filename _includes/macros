@@ -5,7 +5,7 @@ $$
 \newcommand{\X}{\rv X} % The random variable x 
 \newcommand{\Y}{\rv Y} % The random variable y
 \newcommand{\z}{\rv z} % The random variable x 
-\newcommand{\Z}{\rv Z} % The random variable y
+\newcommand{\Z}{\rv Z} 
 % arrows 
 \newcommand{\estim}[1]{\widehat{#1}} % An estimator
 \newcommand{\raw}{\rightarrow}

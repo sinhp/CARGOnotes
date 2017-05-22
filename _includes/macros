@@ -10,21 +10,21 @@ $$
 \renewcommand{\dot}{\centerdot}
 \newcommand{\pr}{^\prime}
 \newcommand{\op}[1]{#1^{\mathrm{op}}}
-\newcommand{\Hom}{\textsl{Hom}}
+\newcommand{\hom}{\textsl{Hom}}
 \newcommand{\oo}{\circ}
 \newcommand{\intvl}{\mathbb{I}}
 %-----------------Categories---------------- (Do not use \mbox)
-\newcommand{\Topos}{\mathfrak{Top}}
-\newcommand{\BTopos}{\mathfrak{BTop}}
-\newcommand{\Con}{\mathfrak{Con}}
-\newcommand{\Pos}{\mathfrak{Poset}}
+\newcommand{\topos}{\mathfrak{Top}}
+\newcommand{\bTopos}{\mathfrak{BTop}}
+\newcommand{\con}{\mathfrak{Con}}
+\newcommand{\pos}{\mathfrak{Poset}}
 \newcommand{\thT}{\mathbb{T}}   
-\newcommand{\Mod}{\mathbf{Mod}}
-\newcommand{\Th}{\mathbf{Th}}
-\newcommand{\Cl}{\mathbf{Cl}}
+\newcommand{\mod}{\mathbf{Mod}}
+\newcommand{\th}{\mathbf{Th}}
+\newcommand{\cl}{\mathbf{Cl}}
 \newcommand{\ob}{\mathbf{Ob}}
 \newcommand{\bun}{\mathbf{Bun}} 
-\newcommand{\Geom}{\mathbf{Geom}}
+\newcommand{\geom}{\mathbf{Geom}}
 
 %----------------cats---------------------
 \newcommand{\cat}[1]{\mathcal{#1}}
@@ -32,6 +32,6 @@ $$
 \newcommand{\frk}[1]{\mathfrak{#1}}
 
 %---------------Operators---------------
-\newcommand{\Psh}{\mbox{\textit{Psh}}}
-\newcommand{\Sh}{\mbox{\textit{Sh}}}
+\newcommand{\psh}[1]{\textit{Psh{\cat{#1}}}
+\newcommand{\sh}[1]{\textit{Sh{\cat{#1}}}
 $$

@@ -1,28 +1,23 @@
 $$
-\newcommand{\loss}{l} % A loss function
-\newcommand{\risk}{R} % The risk function
-\newcommand{\riskn}{\mathbb{R}} % The empirical risk
-\newcommand{\argmin}[2]{\mathop{argmin} _{#1}\set{#2}} % The argmin operator
-\newcommand{\set}[1]{\left\{ #1 \right\}} % A set
-\newcommand{\rv}[1]{\mathbf{#1}} % A random variable
+% random variables ------------------
+\newcommand{\rv}[1]{\mathbf{#1}} 
 \newcommand{\x}{\rv x} % The random variable x 
 \newcommand{\y}{\rv y} % The random variable x 
 \newcommand{\X}{\rv X} % The random variable x 
 \newcommand{\Y}{\rv Y} % The random variable y
-\newcommand{\X}{\rv z} % The random variable x 
-\newcommand{\Y}{\rv Z} % The random variable y
+\newcommand{\z}{\rv z} % The random variable x 
+\newcommand{\Z}{\rv Z} % The random variable y
 
 
-%arrows ----------------------
+% arrows ----------------------
 
 \newcommand{\estim}[1]{\widehat{#1}} % An estimator
-\newcommand{\Geom}{\mathbf{Geom}} 
 \newcommand{\raw}{\rightarrow}
 \newcommand{\xraw}{\xrightarrow}
 \newcommand{\Raw}{\Rightarrow}
 
 
-% symbols  ----------------
+% symbols  --------------------
 
 \renewcommand{\dot}{\centerdot}
 \newcommand{\pr}{^\prime}
@@ -30,6 +25,21 @@ $$
 \newcommand{\Hom}{\textsl{Hom}}
 \newcommand{\oo}{\circ}
 \newcommand{\intvl}{\mathbb{I}}
+\newcommand{\yon}{\mbox{\textit{y}}}
 
+% categories ------------------------
+
+\newcommand{\Set}{\mbox{\textbf{Set}}
+\newcommand{\Topos}{{\mathfrak{Top}}}
+\newcommand{\BTopos}{{\mathfrak{BTop}}}
+\newcommand{\Con}{{\mathfrak{Con}}}
+\newcommand{\Pos}{{\mathfrak{Poset}}}
+\newcommand{\thT}{\mathbb{T}}   
+\newcommand{\Mod}{\mathbf{Mod}}
+\newcommand{\Th}{\mathbf{Th}}
+\newcommand{\Cl}{\mathbf{Cl}}
+\newcommand{\ob}{\mathbf{Ob}}
+\newcommand{\bun}{\mathbf{Bun}} 
+\newcommand{\Geom}{\mathbf{Geom}}
 
 $$

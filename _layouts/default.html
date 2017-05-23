@@ -20,7 +20,11 @@
     {% endif %}	  
 	
     	  
-	  
+	  {% if page.thumbnail %}
+	<meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/assets/{{ page.thumbnail }}">
+	{% else %}
+	<meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/Book-thumbnail.jpg">
+	{% endif %}
 	
 	  
     <!--       <script type="text/javascript"

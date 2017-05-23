@@ -20,12 +20,12 @@ Suppose $T: \cat{C} \to  \cat{C}$ is a monad on $\cat{C}$. We are intereted in a
    
 ### Basic definitions and results
 
-Recall that for a $2$-category $\cat{K}$, and $1$-cells $F$ anf $G$ are given as follows.  
+Suppose for a $2$-category $\frk{M}$, $1$-cells $F$ and $G$ are given as follows.  
 <div style="text-align:center"><img src="{{ site.baseurl }}/assets/2017-05-22/LiftingMonads-1.JPG" alt="right Kan extension" > </div>
 
 **The question:** _Is there any $1$-cell $K$ such that $K \oo F =G$ ?_ 
 
-The answer to this depends on the structure of $2$-category $K$. But, generically the answer is no. Take the mother $2$-category $\Cat$ of categories. 
+The answer to this depends on the structure of $2$-category $\frk{M}$. But, generically the answer is no. Take the mother $2$-category $\Cat$ of categories. Take two distinct morphisms $g$ and $h$ in $A$ in such a way that $F(g)= F(h)$ but $G(g) \neq G(h)$. Any other functor $K$ will preserve the equality of $F(g)$ and $F(h)$ and and hence which preserve ditinction of $g$ and $h$ cannot be written as composition of functors $G$ and $F$. 
 
 
 

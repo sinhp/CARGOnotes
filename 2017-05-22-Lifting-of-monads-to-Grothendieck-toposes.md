@@ -40,7 +40,7 @@ A _right Kan extension of $F$ along $G$_ is the following data:
    
 <div style="text-align:center"><img src="{{ site.baseurl }}/assets/2017-05-22/LiftingMonads-2.JPG" alt="right Kan extension" > </div>
 
-Note that such a $1-cell $K$ must be unique up to unique isomorphism. Hence we denote it by $Ran_{F} G$ 
+Note that such a $1$-cell $K$ must be unique up to unique isomorphism. Hence we denote it by $Ran_{F} G$ 
 
 
 **************************************************************

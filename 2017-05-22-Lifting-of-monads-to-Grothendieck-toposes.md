@@ -32,14 +32,20 @@ Okay, the first attempt to find a solution $K$ for filling the diagram above has
 
 
 A _right Kan extension of $F$ along $G$_ is the following data: 
-  ..1. a $1$-cell $K: B \to E$
-  ..2. a $2$-cell $\ep: KF \To G$ 
+  1. a $1$-cell $K: B \to E$
+  2. a $2$-cell $\ep: KF \To G$ 
    
  univeral among such data. 
    
 <div style="text-align:center"><img src="{{ site.baseurl }}/assets/2017-05-22/LiftingMonads-2.JPG" alt="right Kan extension-2" > </div>
 
 Note that such a $1$-cell $K$ must be unique up to unique isomorphism. Hence we denote it by $Ran_{F} G$ 
+
+
+$$\Updownarrow \frac{(\exists \alpha) \psi (\alpha, x_1, \ldots, x_n) \rightarrow \varphi (x_1, \ldots, x_n)}{\psi (t, x_1, \ldots, x_n) \rightarrow \varphi (x_1, \ldots, x_n)}$$
+$$\Updownarrow \frac{\varphi (x_1, \ldots, x_n) \rightarrow \psi (t, x_1, \ldots, x_n)}{\varphi (x_1, \ldots, x_n) \rightarrow (\forall \alpha) \psi (\alpha, x_1, \ldots, x_n)}$$
+
+
 
 
 **************************************************************

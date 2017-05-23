@@ -5,6 +5,7 @@ author: Sina Hazratpour
 category: Cargo notes
 use_math: true
 comments: true
+thumbnail: LiftingMonads-1.JPG
 ---
 
 {{ page.title }}

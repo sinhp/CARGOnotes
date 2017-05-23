@@ -3,6 +3,29 @@ $$
 \newcommand{\x}{\rv x} 
 \newcommand{\y}{\rv y} 
 \newcommand{\oo}{\circ}
+% ------------blackboard bold letters-------------
+\newcommand{\bb}[1]{\ensuremath{\mathbb{#1}}}
+
+% --------------fraktur with tilde---------------
+\newcommand{\fatil}{\ensuremath{\widetilde{\mathfrak{a}}}}
+
+%------------------- bars---------------------
+\newcommand{\fbar}{\ensuremath{\overline{f}}}
+\newcommand{\gbar}{\ensuremath{\overline{g}}}
+\newcommand{\kbar}{\ensuremath{\overline{k}}}
+
+%------------------tildes--------------------------
+\newcommand{\ftil}{\ensuremath{\widetilde{f}}}
+\newcommand{\gtil}{\ensuremath{\widetilde{g}}}
+
+% -------------------greek with tildes
+\newcommand{\altil}{\ensuremath{\widetilde{\alpha}}}
+\newcommand{\bltil}{\ensuremath{\widetilde{\beta}}}
+
+% ---------------------greek letters------
+\newcommand{\ep}{\ensuremath{\varepsilon}}
+\newcommand{\ph}{\ensuremath{\varphi}}
+
 %-------------------arrows---------------------
 \newcommand{\to}{\rightarrow}
 \newcommand{\xraw}{\xrightarrow}

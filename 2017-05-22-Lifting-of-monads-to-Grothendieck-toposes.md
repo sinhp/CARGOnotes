@@ -28,7 +28,19 @@ Suppose for a $2$-category $\frk{M}$, $1$-cells $F$ and $G$ are given as follows
 The answer to this depends on the structure of $2$-category $\frk{M}$. But, generically the answer is no. Take the mother $2$-category $\Cat$ of categories. Take two distinct morphisms $g$ and $h$ in $A$ in such a way that $F(g)= F(h)$ but $G(g) \neq G(h)$. Any other functor $K$ will preserve the equality of $F(g)$ and $F(h)$. On the other hand, $G$, which preserve ditinction of $g$ and $h$, cannot be written as composition of functors $F$ and $K$. 
 
 
-Okay, the first attempt to find a solution $K$ for filling the diagram above has failed. But, do not worry! We can use the $2$-cells in our $2$-category $\frk(M)$ to find the best possible approximation to such a solution. This approximation can be achieved from two different directions; left and right. And this is the basic idea of Kan extension. 
+Okay, the first attempt to find a solution $K$ for filling the diagram above has failed. But, do not worry! We can use the $2$-cells in our $2$-category $\frk{M}$ to find the best possible approximation to such a solution. This approximation can be achieved from two different directions; left and right. And this is the basic idea of Kan extension. 
+
+
+A _right Kan extension of $F$ along $G$_ is the following data: 
+
+   -a $1$-cell $K: B \to E$
+   -a $2$-cell $\delta: KF \To G$ 
+   
+ univeral among such data. 
+   
+<div style="text-align:center"><img src="{{ site.baseurl }}/assets/2017-05-22/LiftingMonads-2.JPG" alt="right Kan extension" > </div>
+
+Note that such a $1-cell $K$ must be unique up to unique isomorphism. Hence we denote it by $Ran_{F} G$ 
 
 
 **************************************************************

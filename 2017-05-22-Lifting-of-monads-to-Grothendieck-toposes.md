@@ -15,12 +15,17 @@ comments: true
 
 
 
-Suppose $T: \cat{C} \to  \cat{C}$ is a monad on $\cat{C}$. We are intereted in answering the question that under which conditions on $\cat{C}$ it is possible to lift $T$ to $\psh{C}$ and to $\sh{C}$. The way we proceed to answer these question involves a bit of background knowledge in _Kan extensions_.  [Here][1] I included some notes on Kan extensions. However, I intend to highlight the main results in these notes.   
+Suppose $T: \cat{C} \to  \cat{C}$ is a monad on $\cat{C}$. We are intereted in answering the question that under which conditions on $\cat{C}$ it is possible to lift $T$ to $\psh{C}$ and to $\sh{C}$. In order to answer this question, in this post I am going to highlight some of relevant defintions and results that are elaborated in my [notes][1]. 
 
+   
+### Basic definitions and results
 
-
+Recall that for a $2$-category $\cat{K}$, and $1$-cells $F$ anf $G$ are given as follows.  
 <div style="text-align:center"><img src="{{ site.baseurl }}/assets/2017-05-22/LiftingMonads-1.JPG" alt="right Kan extension" > </div>
 
+**The question:** _Is there any $1$-cell $K$ such that $K \oo F =G$ ? 
+
+The answer to this depends on the structure of $2$-category $K$. But, generically the answer is no. Take the mother $2$-category $\Cat$ of categories. 
 
 
 

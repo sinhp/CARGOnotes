@@ -32,8 +32,8 @@ Okay, the first attempt to find a solution $K$ for filling the diagram above has
 
 
 A _right Kan extension of $F$ along $G$_ is the following data: 
-   -a $1$-cell $K: B \to E$
-   -a $2$-cell $\ep: KF \To G$ 
+  ..1. a $1$-cell $K: B \to E$
+  ..2. a $2$-cell $\ep: KF \To G$ 
    
  univeral among such data. 
    

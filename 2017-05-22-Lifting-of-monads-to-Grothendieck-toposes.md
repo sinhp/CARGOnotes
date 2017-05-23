@@ -15,9 +15,11 @@ comments: true
 
 
 
-Suppose $T: \cat{C} \to  \cat{C}$ is a monad on $\cat{C}$. We are intereted in answering the question that under which conditions on $\cat{C}$ it is possible to lift $T$ to $\psh{C}$. The way we proceed to answer these question involves a bit of background knowledge in _Kan extensions_.  [Here][1] I included some notes on Kan extensions. However, I intend to highlight the main results needed for this post.  
+Suppose $T: \cat{C} \to  \cat{C}$ is a monad on $\cat{C}$. We are intereted in answering the question that under which conditions on $\cat{C}$ it is possible to lift $T$ to $\psh{C}$. The way we proceed to answer these question involves a bit of background knowledge in _Kan extensions_.  [Here][1] I included some notes on Kan extensions. However, I intend to highlight the main results in these notes.   
 
 
+
+<img src="{{ site.baseurl }}/assets/2017-05-22/LiftingMonads-1.JPG" alt="right Kan extension" >
 
 
 

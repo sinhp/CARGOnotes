@@ -5,7 +5,6 @@ author: Sina Hazratpour
 category: Cargo notes
 use_math: true
 comments: true
-thumbnail: LiftingMonads-1.JPG
 ---
 
 {{ page.title }}
@@ -20,7 +19,7 @@ Suppose $T: \cat{C} \to  \cat{C}$ is a monad on $\cat{C}$. We are intereted in a
 
 
 
-<div class="thumbnail"><img src="{{ site.baseurl }}/assets/2017-05-22/LiftingMonads-1.JPG" alt="right Kan extension" > </div>
+<div style="text-align:center"><img src="{{ site.baseurl }}/assets/2017-05-22/LiftingMonads-1.JPG" alt="right Kan extension" > </div>
 
 
 

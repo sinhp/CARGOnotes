@@ -41,10 +41,15 @@ A _right Kan extension of $F$ along $G$_ is the following data:
 
 Note that such a $1$-cell $K$ must be unique up to unique isomorphism. Hence we denote it by $Ran_{F} G$ 
 
+#### Note: 
 
-$$\Updownarrow \frac{(\exists \alpha) \psi (\alpha, x_1, \ldots, x_n) \rightarrow \varphi (x_1, \ldots, x_n)}{\psi (t, x_1, \ldots, x_n) \rightarrow \varphi (x_1, \ldots, x_n)}$$
-$$\Updownarrow \frac{\varphi (x_1, \ldots, x_n) \rightarrow \psi (t, x_1, \ldots, x_n)}{\varphi (x_1, \ldots, x_n) \rightarrow (\forall \alpha) \psi (\alpha, x_1, \ldots, x_n)}$$
+In the case that the $2$-category $\frk{M}$ is poset-enriched we get familiar cancellation rule corresponding to the right Kan extension:
 
+$$\Updownarrow \frac{KF \leq G}{K \leq Ran_{F} G}$$
+
+And for the left Kan extension, we get: 
+
+$$\Updownarrow \frac{G \leq KF}{Lan_{F} G \leq K}$$
 
 
 

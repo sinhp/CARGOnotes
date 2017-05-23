@@ -41,7 +41,16 @@ $$
 %---------------Operators---------------
 \newcommand{\psh}[1]{\textit{Psh}(\cat{#1})}
 \newcommand{\sh}[1]{\textit{sh}(\cat{#1})}
-
+\newcommand{\Id}{\operatorname{Id}}
+\newcommand{\Ho}{\operatorname{Ho}}
+\newcommand{\ad}{\operatorname{ad}}
+\newcommand{\Adj}{\operatorname{Adj}}
+\newcommand{\Sym}{\operatorname{Sym}}
+\newcommand{\Pull}{\operatorname{Pull}}
+\newcommand{\Push}{\operatorname{Push}}
+\newcommand{\dom}{\operatorname{dom}}
+\newcommand{\cod}{\operatorname{cod}}
+\newcommand{\fun}{\operatorname{Fun}}
 %-----------------fonts/styles---------------
 \newcommand{\cat}[1]{\mathcal{#1}}
 \newcommand{\scr}[1]{\mathscr{#1}}

@@ -56,7 +56,6 @@ $$\Updownarrow \frac{G \leq KF}{Lan_{F} G \leq K}$$
 
 Let $F: \cat{A} \to \cat{B}$ be a functor. For any other category $\cat{E}$, define the functor
 $$F^{\ast}:  \fun(\cat{B}, \cat{E}) \to \fun(\cat{A}, \cat{E})$$
-
 by precomposition with $F$. 
 
 
@@ -65,8 +64,7 @@ by precomposition with $F$.
 $F^{\ast}$ has a right adjoint if and only if the right extensions of functors $G: \cat{A} \to \cat{E}$ along $F$ exists for all $G$.   
 Moreover, the evaluation of this right adjoint at $G: \cat{A} \to \cat{B}$ yields $Ran_{F} G$. 
 
-Similarly, $F^{\ast}$ has a left adjoint if and only if the left extensions of functors $G: \cat{A} \to \cat{E}$ along $F$ exists for all $G$.   
-Moreover, the evaluation of this left adjoint at $G: \cat{A} \to \cat{B}$ yields $Lan_{F} G$. 
+Similarly, $F^{\ast}$ has a left adjoint if and only if the left extensions of functors $G: \cat{A} \to \cat{E}$ along $F$ exists for all $G$. Moreover, the evaluation of this left adjoint at $G: \cat{A} \to \cat{B}$ yields $Lan_{F} G$. 
 
 
 

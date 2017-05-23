@@ -2,29 +2,14 @@ $$
 \newcommand{\rv}[1]{\mathbf{#1}} 
 \newcommand{\x}{\rv x} 
 \newcommand{\y}{\rv y} 
-\newcommand{\oo}{\circ}
-% ------------blackboard bold letters-------------
-\newcommand{\bb}[1]{\ensuremath{\mathbb{#1}}}
-
-% --------------fraktur with tilde---------------
-\newcommand{\fatil}{\ensuremath{\widetilde{\mathfrak{a}}}}
-
 %------------------- bars---------------------
-\newcommand{\fbar}{\ensuremath{\overline{f}}}
-\newcommand{\gbar}{\ensuremath{\overline{g}}}
-\newcommand{\kbar}{\ensuremath{\overline{k}}}
-
+\newcommand{\bar}[1]{\overline{#1}}
 %------------------tildes--------------------------
-\newcommand{\ftil}{\ensuremath{\widetilde{f}}}
-\newcommand{\gtil}{\ensuremath{\widetilde{g}}}
-
-% -------------------greek with tildes
-\newcommand{\altil}{\ensuremath{\widetilde{\alpha}}}
-\newcommand{\bltil}{\ensuremath{\widetilde{\beta}}}
+\newcommand{\wtil}[1]{\widetilde{#1}}
 
 % ---------------------greek letters------
-\newcommand{\ep}{\ensuremath{\varepsilon}}
-\newcommand{\ph}{\ensuremath{\varphi}}
+\newcommand{\ep}{\varepsilon}
+\newcommand{\ph}{\varphi}
 
 %-------------------arrows---------------------
 \newcommand{\to}{\rightarrow}
@@ -61,5 +46,5 @@ $$
 \newcommand{\cat}[1]{\mathcal{#1}}
 \newcommand{\scr}[1]{\mathscr{#1}}
 \newcommand{\frk}[1]{\mathfrak{#1}}
-
+\newcommand{\bb}[1]{\mathbb{#1}}
 $$

@@ -21,7 +21,7 @@ Suppose $T: \cat{C} \to  \cat{C}$ is a monad on $\cat{C}$. We are intereted in a
 ### Basic definitions and results
 
 Suppose for a $2$-category $\frk{M}$, $1$-cells $F$ and $G$ are given as follows.  
-<div style="text-align:center"><img src="{{ site.baseurl }}/assets/2017-05-22/LiftingMonads-1.JPG" alt="right Kan extension" > </div>
+<div style="text-align:center"><img src="{{ site.baseurl }}/assets/2017-05-22/LiftingMonads-1.JPG" alt="right Kan extension-1" > </div>
 
 **The question:** _Is there any $1$-cell $K$ such that $K \oo F =G$ ?_ 
 
@@ -38,7 +38,7 @@ A _right Kan extension of $F$ along $G$_ is the following data:
    
  univeral among such data. 
    
-<div style="text-align:center"><img src="{{ site.baseurl }}/assets/2017-05-22/LiftingMonads-2.JPG" alt="right Kan extension" > </div>
+<div style="text-align:center"><img src="{{ site.baseurl }}/assets/2017-05-22/LiftingMonads-2 .JPG" alt="right Kan extension-2" > </div>
 
 Note that such a $1$-cell $K$ must be unique up to unique isomorphism. Hence we denote it by $Ran_{F} G$ 
 

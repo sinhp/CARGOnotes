@@ -18,7 +18,7 @@ comments: true
 Suppose $T: \cat{C} \to  \cat{C}$ is a monad on $\cat{C}$. We are intereted in answering the question that under which conditions on $\cat{C}$ it is possible to lift $T$ to $\psh{C}$ and to $\sh{C}$. In order to answer this question, in this post I am going to highlight some of relevant defintions and results that are elaborated in my [notes][1]. 
 
 ----------------------------------------------------------   
-### Basic definitions and results
+### What are Kan extensions?
 
 Suppose for a $2$-category $\frk{M}$, $1$-cells $F$ and $G$ are given as follows.  
 <div style="text-align:center"><img src="{{ site.baseurl }}/assets/2017-05-22/LiftingMonads-1.JPG" alt="right Kan extension-1" > </div>
@@ -52,8 +52,41 @@ And for the left Kan extension, we get:
 $$\Updownarrow \frac{G \leq KF}{Lan_{F} G \leq K}$$
 
 
-
 **************************************************************
+
+Let $F: \cat{A} \to \cat{B}$ be a functor. For any other category $\cat{E}$, define the functor
+$$F^{\ast}:  \fun(\cat{B}, \cat{E}) \to \fun(\cat{A}, \cat{E})$$
+
+by precomposition with $F$. 
+
+
+#### Proposition:
+
+$F^{\ast}$ has a right adjoint if and only if the right extensions of functors $G: \cat{A} \to \cat{E}$ along $F$ exists for all $G$.   
+Moreover, the evaluation of this right adjoint at $G: \cat{A} \to \cat{B}$ yields $Ran_{F} G$. 
+
+Similarly, $F^{\ast}$ has a left adjoint if and only if the left extensions of functors $G: \cat{A} \to \cat{E}$ along $F$ exists for all $G$.   
+Moreover, the evaluation of this left adjoint at $G: \cat{A} \to \cat{B}$ yields $Lan_{F} G$. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

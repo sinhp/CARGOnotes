@@ -33,4 +33,5 @@ $$
 
 %---------------Operators---------------
 \newcommand{\psh}[1]{\textit{Psh}(\cat{#1})}
+\newcommand{\sh}[1]{\textit{sh}(\cat{#1})}
 $$

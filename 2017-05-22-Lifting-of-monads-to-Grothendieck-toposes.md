@@ -23,7 +23,7 @@ Suppose $T: \cat{C} \to  \cat{C}$ is a monad on $\cat{C}$. We are intereted in a
 Recall that for a $2$-category $\cat{K}$, and $1$-cells $F$ anf $G$ are given as follows.  
 <div style="text-align:center"><img src="{{ site.baseurl }}/assets/2017-05-22/LiftingMonads-1.JPG" alt="right Kan extension" > </div>
 
-**The question:** _Is there any $1$-cell $K$ such that $K \oo F =G$ ? 
+**The question:** _Is there any $1$-cell $K$ such that $K \oo F =G$ ?_ 
 
 The answer to this depends on the structure of $2$-category $K$. But, generically the answer is no. Take the mother $2$-category $\Cat$ of categories. 
 

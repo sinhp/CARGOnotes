@@ -19,7 +19,7 @@ Suppose $T: \cat{C} \to  \cat{C}$ is a monad on $\cat{C}$. We are intereted in a
 
 
 
-$$<img src="{{ site.baseurl }}/assets/2017-05-22/LiftingMonads-1.JPG" alt="right Kan extension" >$$
+<div class="thumbnail"><img src="{{ site.baseurl }}/assets/2017-05-22/LiftingMonads-1.JPG" alt="right Kan extension" > </div>
 
 
 

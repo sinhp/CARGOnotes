@@ -38,6 +38,9 @@ $$
 \newcommand{\ob}{\mathbf{Ob}}
 \newcommand{\bun}{\mathbf{Bun}} 
 \newcommand{\geom}{\mathbf{Geom}}
+\def\catg{\mathop{\mathcal{C}\! {\it at}}\nolimits}
+\def\Cat{\mathop{\mathfrak{Cat}}}
+\def\CAT{\mathop{\mathbf{2} \mathfrak{Cat}}}
 
 %----------------cats of cats---------------------
 \def\Cat{\mathop{\mathfrak{Cat}}}

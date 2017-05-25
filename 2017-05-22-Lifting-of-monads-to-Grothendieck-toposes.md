@@ -60,11 +60,14 @@ $\lang Lan_{F} G, \eta \rang$ is the initial object in the comma category $G/\st
 
 
 
+
+
 **************************************************************
 
+
+
 Let $F: \cat{A} \to \cat{B}$ be a functor. For any other category $\cat{E}$, define the functor
-$$F^{\ast}:  \fun(\cat{B}, \cat{E}) \to \fun(\cat{A}, \cat{E})$$
-by precomposition with $F$. 
+$F^{\ast}:  \fun(\cat{B}, \cat{E}) \to \fun(\cat{A}, \cat{E})$ by precomposition with $F$. 
 
 
 #### Proposition:
@@ -77,7 +80,7 @@ Similarly, $F^{\ast}$ has a left adjoint if and only if the left extensions of f
 
 
 
-
+*****************************************************************
 
 
 

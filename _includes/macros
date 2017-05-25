@@ -21,6 +21,8 @@ $$
 \newcommand{\op}[1]{#1^{\mathrm{op}}}
 \newcommand{\hom}{\textsl{Hom}}
 \newcommand{\oo}{\circ}
+\newcommand{\lang}{\langle}
+\newcommand{\rang}{\rangle}
 \newcommand{\intvl}{\mathbb{I}}
 %-----------------Categories---------------- (Do not use \mbox)
 \newcommand{\topos}{\mathfrak{Top}}

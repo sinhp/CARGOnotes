@@ -46,8 +46,8 @@ $$
 \def\Cat{\mathop{\mathfrak{Cat}}}
 
 %---------------Operators---------------
-\newcommand{\psh}{\textit{Psh}}
-\newcommand{\sh}{\textit{Sh}}
+\newcommand{\Psh}{\textit{Psh}}
+\newcommand{\Sh}{\textit{Sh}}
 
 \newcommand{\psh}[1]{\textit{Psh}(\cat{#1})}
 \newcommand{\sh}[1]{\textit{Sh}(\cat{#1})}

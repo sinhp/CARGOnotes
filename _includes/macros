@@ -19,13 +19,13 @@ $$
 \renewcommand{\dot}{\centerdot}
 \newcommand{\pr}{^\prime}
 \newcommand{\op}[1]{#1^{\mathrm{op}}}
-\newcommand{\hom}{\textsl{Hom}}
+\newcommand{\hom}{\textit{Hom}}
 \newcommand{\oo}{\circ}
 \newcommand{\lang}{\langle}
 \newcommand{\rang}{\rangle}
 \newcommand{\str}[1]{#1^{*}}
 \newcommand{\intvl}{\mathbb{I}}
-\newcommand{\yon}{\mathcal{y}}
+\newcommand{\yon}{\mathcal{Y}}
 %-----------------Categories---------------- (Do not use \mbox)
 \newcommand{\topos}{\mathfrak{Top}}
 \newcommand{\bTopos}{\mathfrak{BTop}}

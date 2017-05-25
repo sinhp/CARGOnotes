@@ -17,8 +17,9 @@ comments: true
 
 Suppose $T: \cat{C} \to  \cat{C}$ is a monad on $\cat{C}$. We are intereted in answering the question that under which conditions on $\cat{C}$ it is possible to lift $T$ to $\psh{C}$ and to $\sh{C}$. In order to answer this question, in this post I am going to highlight some of relevant defintions and results that are elaborated in my [notes][1]. For more details of proofs and more examples you should have a look there too.
 
-----------------------------------------------------------   
+********************************************************
 ### What are Kan extensions?
+********************************************************
 
 Suppose for a $2$-category $\frk{M}$, $1$-cells $F$ and $G$ are given as follows.  
 <div style="text-align:center"><img src="{{ site.baseurl }}/assets/2017-05-22/LiftingMonads-1.JPG" alt="right Kan extension-1" > </div>
@@ -62,12 +63,11 @@ $\lang Lan_{F} G, \eta \rang$ is the initial object in the comma category $G/\st
 
 
 
-**************************************************************
 
 
 
-Let $F: \cat{A} \to \cat{B}$ be a functor. For any other category $\cat{E}$, define the functor
-$F^{\ast}:  \fun(\cat{B}, \cat{E}) \to \fun(\cat{A}, \cat{E})$ by precomposition with $F$. 
+
+Let $F: \cat{A} \to \cat{B}$ be a functor. For any other category $\cat{E}$, define the functor $F^{\ast}:  \fun(\cat{B}, \cat{E}) \to \fun(\cat{A}, \cat{E})$ by precomposition with $F$. 
 
 
 #### Proposition:
@@ -81,9 +81,8 @@ Similarly, $F^{\ast}$ has a left adjoint if and only if the left extensions of f
 
 
 *****************************************************************
-
 ### Left Kan extension and free cocompletion 
-
+******************************************************************
 
 Let $P$ be a presheaf on a category $\cat{A}$. We would like to compute the left extension of $P$ along $\op{F}$ (given above).  
 
@@ -94,14 +93,13 @@ In the first step, we do this computation for the easier case of representable p
 
 We know that any presheaf is a colimit of representables over its category of elements. Now, one can show that $Lan_{\op{F}} P$ is given by $$ \colim \Big(\int_{\cat{A}}P \xraw{\pi} \cat{C} \xraw{F} \cat{D} \xraw{\yon} \psh{D} \Big) $$.
 
-Since $Lan_{\op{F}} P$ exists for every presheaf $P$, $Lan_{\op{F}}$ is a left adjoint to $\str{F^{op}}$ by an earlier remark. 
+Since $Lan_{\op{F}} P$ exists for every presheaf $P$, $Lan_{\op{F}}$ is a left adjoint to ${F^{op}}^{\ast}$ by an earlier remark. 
 We also use the notation $F_{!}$ for $Lan_{\op{F}}$. 
 
 
 ********************************************************************
-
 ### Yoneda embedding as a natural-2-transformation 
-
+********************************************************************
 
 There is a beautiful description of yoneda embedding that goes back at least to [Notions of computation and monads][2] as far as I'm concerned. First, let's observe that $\Psh : \catg \to \Cat$ is a $2$-functor which sends a category $\cat{C}$ to $\psh{C}$, a functor $F: \cat{C} \to \cat{D}$ to $F_{!}$ and a natural transformation $\theta: F \To G$ to $\theta_{!}$. (try to figure this out!). Note that $\catg$ is the $2$-category of small categories and $\Cat$ is the meta-$2$-category of categories. 
 

@@ -93,7 +93,7 @@ In the first step, we do this computation for the easier case of representable p
 
 We know that any presheaf is a colimit of representables over its category of elements. Now, one can show that $Lan_{\op{F}} P$ is given by $$ \colim \Big(\int_{\cat{A}}P \xraw{\pi} \cat{C} \xraw{F} \cat{D} \xraw{\yon} \psh{D} \Big) $$.
 
-Since $Lan_{\op{F}} P$ exists for every presheaf $P$, $Lan_{\op{F}}$ is a left adjoint to ${\op{F}}^{\ast}$ by an earlier remark. 
+Since $Lan_{\op{F}} P$ exists for every presheaf $P$, $Lan_{\op{F}}$ is a left adjoint to $\Big({\op{F}}\Big)^{\ast}$ by an earlier remark. 
 We also use the notation $F_{!}$ for $Lan_{\op{F}}$. 
 
 

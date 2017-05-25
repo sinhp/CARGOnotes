@@ -88,13 +88,11 @@ Let $P$ be a presheaf on a category $\cat{A}$. We would like to compute the left
 
 <div style="text-align:center"><img src="{{ site.baseurl }}/assets/2017-05-22/Left-ext-presheaf.JPG" alt="Left-ext-presheaf" > </div>
 
-In the first step, we do this computation for the easier case of representable presheaves. It is proved in the notes that $\lang \yon Fa, F_{-,a} \rang$ is a left Kan extension of $\yon a$ along $\op{F}$.  (Note: functions F_{x,a}: \hom(x,a) \to \hom(Fx,Fa)$ for all $x$,$a$ are part of defintion of functor $F$.)
+In the first step, we do this computation for the easier case of representable presheaves. It is proved in the notes that $\lang \yon Fa, F_{-,a} \rang$ is a left Kan extension of $\yon a$ along $\op{F}$.  (Note: functions $F_{x,a}: \hom(x,a) \to \hom(Fx,Fa)$ for all $x$,$a$ are part of defintion of functor $F$.)
 
-We know that any presheaf is a colimit of representables over its category of elements. Now, we can show that 
+We know that any presheaf is a colimit of representables over its category of elements. Now, one can show that $Lan_{\op{F}} P$ is given by $$ \colim (\int_{\cat{A}}P \xraw{\pi} \cat{C} \xraw{F} \cat{D} \xraw{\yon} \psh{D} $$.
 
-$$ \colim (\int_{\cat{A}}P \xraw{\pi} \cat{C} \xraw{F} \cat{D} \xraw{\yon} \psh(D)$$
-
-
+Since $Lan_{\op{F}} P$ exists for every presheaf $P$, $Lan_{\op{F}}$ is a left adjoint to $\str\op{F}$ by an earlier remark. 
 We also use the notation $F_{!} = Lan $ 
 
 

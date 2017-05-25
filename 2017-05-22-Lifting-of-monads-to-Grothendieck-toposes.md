@@ -56,7 +56,7 @@ $$\Updownarrow \frac{G \leq KF}{Lan_{F} G \leq K}$$
 Limit of a diagram $G: \cat{A} \to \cat{E}$ is obtained as the right extension of $G$ along the unique functor $!: \cat{A} \to 1$. Similarly, colimit of a diagram $G: \cat{A} \to \cat{E}$ is obtained as the left extension of $G$ along the unique functor $!: \cat{A} \to 1$.  
 
 ##### Remark: 
-$\lang Lan_{F} G, \eta \rang$ is the initial object in the comma category $G/\str{F}$, and  $\lang Ran_{F} G, \eta \rang$ is the terminal object in the comma category $\str{F}/G$ 
+$\lang Lan_{F} G, \eta \rang$ is the initial object in the comma category $G/\str{F}$, and  $\lang Ran_{F} G, \ep \rang$ is the terminal object in the comma category $\str{F}/G$ 
 
 
 
@@ -83,18 +83,19 @@ Similarly, $F^{\ast}$ has a left adjoint if and only if the left extensions of f
 *****************************************************************
 
 
-Let $P$ be a presheaf on a ctaegory $\cat{C}$. We would like to compute the left extension of $P$ along $\op{F}$ (given above).  
-However, we know that any presheaf is a colimit of representables over its category of elements. Since $Lan_{\op{F}}$ is a left adjoint, it preserves colimits and therefore, we only need to compute the left extension of arbitrary representables $\yon c$ for some $c \in \cat{C}$.  
+Let $P$ be a presheaf on a category $\cat{A}$. We would like to compute the left extension of $P$ along $\op{F}$ (given above).  
+
 
 <div style="text-align:center"><img src="{{ site.baseurl }}/assets/2017-05-22/Left-ext-presheaf.JPG" alt="Left-ext-presheaf" > </div>
 
+In the first step, we do this computation for the easier case of representable presheaves. It is proved in the notes that $\lang \yon Fa, F_{-,a} \rang$ is a left Kan extension of $\yon a$ along $\op{F}$.  (Note: functions F_{x,a}: \hom(x,a) \to \hom(Fx,Fa)$ for all $x$,$a$ are part of defintion of functor $F$.)
 
-We claim that $\lang \yon Fc, F_{-,c} \rang$ is a left Kan extension of $\yon c$ along $\op{F}$.  
+We know that any presheaf is a colimit of representables over its category of elements. Now, we can show that 
+
+$$ \colim (\int_{\cat{A}}P \xraw{\pi} \cat{C} \xraw{F} \cat{D} \xraw{\yon} \psh(D)$$
 
 
-
-
-
+We also use the notation $F_{!} = Lan $ 
 
 
 

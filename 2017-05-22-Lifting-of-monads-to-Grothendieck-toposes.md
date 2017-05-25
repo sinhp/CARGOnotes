@@ -83,7 +83,7 @@ Similarly, $F^{\ast}$ has a left adjoint if and only if the left extensions of f
 *****************************************************************
 
 
-Let $P$ be a presheaf on a ctaegory $\cat{C}$. We would like to compute the left extension of $P$ along $\opF$ (given above).  
+Let $P$ be a presheaf on a ctaegory $\cat{C}$. We would like to compute the left extension of $P$ along $\op{F}$ (given above).  
 
 
 <div style="text-align:center"><img src="{{ site.baseurl }}/assets/2017-05-22/Left-ext-presheaf.JPG" alt="Left-ext-presheaf" > </div>

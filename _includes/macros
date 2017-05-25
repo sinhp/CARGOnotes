@@ -23,6 +23,7 @@ $$
 \newcommand{\oo}{\circ}
 \newcommand{\lang}{\langle}
 \newcommand{\rang}{\rangle}
+\newcommand{\str}[1]{{#1}^{*}}
 \newcommand{\intvl}{\mathbb{I}}
 %-----------------Categories---------------- (Do not use \mbox)
 \newcommand{\topos}{\mathfrak{Top}}

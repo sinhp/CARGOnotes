@@ -52,6 +52,14 @@ And for the left Kan extension, we get:
 $$\Updownarrow \frac{G \leq KF}{Lan_{F} G \leq K}$$
 
 
+###### Remark: 
+Limit of a diagram $G: \cat{A} \to \cat{E}$ is obtained as the right extension of $G$ along the unique functor $!: \cat{A} \to \cat{1}$. Similarly, colimit of a diagram $G: \cat{A} \to \cat{E}$ is obtained as the left extension of $G$ along the unique functor $!: \cat{A} \to \cat{1}$.  
+
+###### Remark: 
+$\lang Lan_{F} G, \eta \rang$ is the initial object in the comma category $G/\str{F}$, and  $\lang Ran_{F} G, \eta \rang$ is the terminal object in the comma category $\str{F}/G$ 
+
+
+
 **************************************************************
 
 Let $F: \cat{A} \to \cat{B}$ be a functor. For any other category $\cat{E}$, define the functor

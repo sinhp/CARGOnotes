@@ -6,7 +6,7 @@ $$
 \newcommand{\bar}[1]{\overline{#1}}
 %------------------tildes--------------------------
 \newcommand{\wtil}[1]{\widetilde{#1}}
-
+\newcommand{\what}[1]{\widehat{#1}}
 % ---------------------greek letters------
 \newcommand{\ep}{\varepsilon}
 \newcommand{\ph}{\varphi}

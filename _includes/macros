@@ -46,8 +46,11 @@ $$
 \def\Cat{\mathop{\mathfrak{Cat}}}
 
 %---------------Operators---------------
+\newcommand{\psh}{\textit{Psh}}
+\newcommand{\sh}{\textit{Sh}}
+
 \newcommand{\psh}[1]{\textit{Psh}(\cat{#1})}
-\newcommand{\sh}[1]{\textit{sh}(\cat{#1})}
+\newcommand{\sh}[1]{\textit{Sh}(\cat{#1})}
 \newcommand{\Id}{\operatorname{Id}}
 \newcommand{\Ho}{\operatorname{Ho}}
 \newcommand{\ad}{\operatorname{ad}}

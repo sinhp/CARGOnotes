@@ -107,7 +107,7 @@ There is a beautiful description of yoneda embedding that goes back at least to 
 
 There is also inclusion $2$-functor $ inc: \catg \to \Cat$. You can see in the notes that the Yoneda embedding is a 2-natural-transformation $ \yon : inc \to \Psh$. 
 
-A monad $T$ is exactly a lax functor $\ast \to \catg$. Post-composing this lax functor with $\psh$ yields another lax funcotr which is again a monad $\what{T}$; a lifting of monad $T$ to the presheaf category. 
+A monad $T$ is exactly a lax functor $\ast \to \catg$. Post-composing this lax functor with $\Psh$ yields another lax funcotr which is again a monad $\what{T}$; a lifting of monad $T$ to the presheaf category. 
 
 
 

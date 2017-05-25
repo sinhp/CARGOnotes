@@ -55,7 +55,7 @@ $$
 \newcommand{\dom}{\operatorname{dom}}
 \newcommand{\cod}{\operatorname{cod}}
 \newcommand{\fun}{\operatorname{Fun}}
-\newcommand{\Colim}{\operatorname{Colim}}
+\newcommand{\colim}{\operatorname{Colim}}
 %-----------------fonts/styles---------------
 \newcommand{\cat}[1]{\mathcal{#1}}
 \newcommand{\scr}[1]{\mathscr{#1}}

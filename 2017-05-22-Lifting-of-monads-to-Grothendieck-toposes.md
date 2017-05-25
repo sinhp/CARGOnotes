@@ -90,11 +90,11 @@ Let $P$ be a presheaf on a category $\cat{A}$. We would like to compute the left
 
 <div style="text-align:center"><img src="{{ site.baseurl }}/assets/2017-05-22/Left-ext-presheaf.JPG" alt="Left-ext-presheaf" > </div>
 
-In the first step, we do this computation for the easier case of representable presheaves. It is proved in the notes that $\lang \yon Fa, F_{-,a} \rang$ is a left Kan extension of $\yon a$ along $\op{F}$.  (Note: functions $F_{x,a}: \hom(x,a) \to \hom(Fx,Fa)$ for all $x$,$a$ are part of defintion of functor $F$.)
+In the first step, we do this computation for the easier case of representable presheaves. It is proved in the notes that $\lang \yon Fa, F_{-,a} \rang$ is a left Kan extension of $\yon a$ along $\op{F}$.  (Note: functions $F_{x,a}: \hom(x,a) \to \hom(Fx,Fa)$ for all $x$,$a$, are part of defintion of functor $F$.)
 
 We know that any presheaf is a colimit of representables over its category of elements. Now, one can show that $Lan_{\op{F}} P$ is given by $$ \colim \Big(\int_{\cat{A}}P \xraw{\pi} \cat{C} \xraw{F} \cat{D} \xraw{\yon} \psh{D} \Big) $$.
 
-Since $Lan_{\op{F}} P$ exists for every presheaf $P$, $Lan_{\op{F}}$ is a left adjoint to $\str{\op{F}}$ by an earlier remark. 
+Since $Lan_{\op{F}} P$ exists for every presheaf $P$, $Lan_{\op{F}}$ is a left adjoint to $\str{F^{op}}$ by an earlier remark. 
 We also use the notation $F_{!}$ for $Lan_{\op{F}}$. 
 
 
@@ -107,7 +107,7 @@ There is a beautiful description of yoneda embedding that goes back at least to 
 
 There is also inclusion $2$-functor $ inc: \catg \to \Cat$. You can see in the notes that the Yoneda embedding is a 2-natural-transformation $ \yon : inc \to \Psh$. 
 
-A monad $T$ is exactly a lax functor $\ast \to \catg$. Post-composing this lax functor with $\Psh$ yields another lax funcotr which is again a monad $\what{T}$; a lifting of monad $T$ to the presheaf category. 
+A monad $T$ is exactly a lax functor $\ast \to \catg$. Post-composing this lax functor with $\Psh$ yields another lax funcotr which is the monad $T_{!}$; a lifting of monad $T$ to the presheaf category. 
 
 
 

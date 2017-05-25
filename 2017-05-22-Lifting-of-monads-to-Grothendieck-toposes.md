@@ -84,7 +84,7 @@ Similarly, $F^{\ast}$ has a left adjoint if and only if the left extensions of f
 
 
 Let $P$ be a presheaf on a ctaegory $\cat{C}$. We would like to compute the left extension of $P$ along $\op{F}$ (given above).  
-However, we know that any presheaf is a colimit of representables over its category of elements. Therefore, we only suffice to compute the left extension of an arbitrary representable $\yon c$ for some $c \in \cat{C}$.  
+However, we know that any presheaf is a colimit of representables over its category of elements. Since $Lan_{\op{F}}$ is a left adjoint, it preserves colimits and therefore, we only need to compute the left extension of arbitrary representables $\yon c$ for some $c \in \cat{C}$.  
 
 <div style="text-align:center"><img src="{{ site.baseurl }}/assets/2017-05-22/Left-ext-presheaf.JPG" alt="Left-ext-presheaf" > </div>
 

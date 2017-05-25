@@ -15,7 +15,7 @@ comments: true
 
 
 
-Suppose $T: \cat{C} \to  \cat{C}$ is a monad on $\cat{C}$. We are intereted in answering the question that under which conditions on $\cat{C}$ it is possible to lift $T$ to $\psh{C}$ and to $\sh{C}$. In order to answer this question, in this post I am going to highlight some of relevant defintions and results that are elaborated in my [notes][1]. 
+Suppose $T: \cat{C} \to  \cat{C}$ is a monad on $\cat{C}$. We are intereted in answering the question that under which conditions on $\cat{C}$ it is possible to lift $T$ to $\psh{C}$ and to $\sh{C}$. In order to answer this question, in this post I am going to highlight some of relevant defintions and results that are elaborated in my [notes][1]. For more details of proofs and more examples you should have a look there too.
 
 ----------------------------------------------------------   
 ### What are Kan extensions?
@@ -82,6 +82,8 @@ Similarly, $F^{\ast}$ has a left adjoint if and only if the left extensions of f
 
 *****************************************************************
 
+### Left Kan extension and free cocompletion 
+
 
 Let $P$ be a presheaf on a category $\cat{A}$. We would like to compute the left extension of $P$ along $\op{F}$ (given above).  
 
@@ -92,11 +94,28 @@ In the first step, we do this computation for the easier case of representable p
 
 We know that any presheaf is a colimit of representables over its category of elements. Now, one can show that $Lan_{\op{F}} P$ is given by $$ \colim (\int_{\cat{A}}P \xraw{\pi} \cat{C} \xraw{F} \cat{D} \xraw{\yon} \psh{D} $$.
 
-Since $Lan_{\op{F}} P$ exists for every presheaf $P$, $Lan_{\op{F}}$ is a left adjoint to $\str\op{F}$ by an earlier remark. 
-We also use the notation $F_{!} = Lan $ 
+Since $Lan_{\op{F}} P$ exists for every presheaf $P$, $Lan_{\op{F}}$ is a left adjoint to $\str{\op{F}}$ by an earlier remark. 
+We also use the notation $F_{!}$ for $Lan_{\op{F}}$. 
 
+
+********************************************************************
+
+### Yoneda embedding as a natural-2-transformation 
+
+
+There is a beautiful description of yoneda embedding that goes back at least to [Notions of computation and monads][2] as far as I'm concerned. First, let's observe that $\psh{}: \cat \to \Cat$ is a $2$-functor which sends a category $\cat{C}$ to $\psh{C}$, a functor $F: \cat{C} \to \cat{D}$ to $F_{!}$ and a natural transformation $\theta: F \To G$ to $\theta_{!}$. (try to figure this out!). Note that $\cat$ is the $2$-category of small categories and $\Cat$ is the meta-$2$-category of categories. 
+
+There is also inclusion $2$-functor $inc: $\cat$ \to \Cat$. You can see in the notes that the Yoneda embedding is a 2-natural-transformation $y: inc \to \psh{}$. 
+
+A monad $T$ is exactly a lax functor $\ast \to \cat$. Post-composing this lax functor with $\psh{}$ yields another lax funcotr which is again a monad $\what{T}$; a lifting of monad $T$ to the presheaf category. 
+
+
+
+
+  
 
 
 
 
 [1]: assets/2017-05-22/kan-ext-notes-2017-04-12.pdf
+[2]: http://fsl.cs.illinois.edu/pubs/moggi-1991-ic.pdf

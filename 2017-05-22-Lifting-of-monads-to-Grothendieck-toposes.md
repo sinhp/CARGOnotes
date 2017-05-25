@@ -103,9 +103,9 @@ We also use the notation $F_{!}$ for $Lan_{\op{F}}$.
 ### Yoneda embedding as a natural-2-transformation 
 
 
-There is a beautiful description of yoneda embedding that goes back at least to [Notions of computation and monads][2] as far as I'm concerned. First, let's observe that $\psh: \catg \to \Cat$ is a $2$-functor which sends a category $\cat{C}$ to $\psh{C}$, a functor $F: \cat{C} \to \cat{D}$ to $F_{!}$ and a natural transformation $\theta: F \To G$ to $\theta_{!}$. (try to figure this out!). Note that $\catg$ is the $2$-category of small categories and $\Cat$ is the meta-$2$-category of categories. 
+There is a beautiful description of yoneda embedding that goes back at least to [Notions of computation and monads][2] as far as I'm concerned. First, let's observe that $\Psh : \catg \to \Cat$ is a $2$-functor which sends a category $\cat{C}$ to $\psh{C}$, a functor $F: \cat{C} \to \cat{D}$ to $F_{!}$ and a natural transformation $\theta: F \To G$ to $\theta_{!}$. (try to figure this out!). Note that $\catg$ is the $2$-category of small categories and $\Cat$ is the meta-$2$-category of categories. 
 
-There is also inclusion $2$-functor $ inc: \catg \to \Cat$. You can see in the notes that the Yoneda embedding is a 2-natural-transformation $y: inc \to \psh$. 
+There is also inclusion $2$-functor $ inc: \catg \to \Cat$. You can see in the notes that the Yoneda embedding is a 2-natural-transformation $ \yon : inc \to \Psh$. 
 
 A monad $T$ is exactly a lax functor $\ast \to \catg$. Post-composing this lax functor with $\psh$ yields another lax funcotr which is again a monad $\what{T}$; a lifting of monad $T$ to the presheaf category. 
 

@@ -11,6 +11,7 @@ title: Mathematical scribblings
 # CARGO notes #
 
 [Lifting of monads to Grothendieck toposes][lift-monad-topos]
+
 [Model category of groupoids][model-grpds]
 
 ----------------------------------------------

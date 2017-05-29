@@ -10,7 +10,7 @@ title: Mathematical scribblings
 
 # CARGO notes #
 
-These are the notes from the talks I have given in the category theory reading group [CARGO][http://talks.bham.ac.uk/show/archive/1233]  for graduate students at the school of computer science.  
+These are the notes from the talks I have given in the category theory reading group [CARGO](http://talks.bham.ac.uk/show/archive/1233)  for graduate students at the school of computer science.  
   1. [Model category of groupoids][model-grpds]
   2. [Lifting of monads to Grothendieck toposes][lift-monad-topos]
   

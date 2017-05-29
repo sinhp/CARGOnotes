@@ -11,7 +11,7 @@ title: Mathematical scribblings
 # CARGO notes #
 
 [Lifting of monads to Grothendieck toposes][lift-monad-topos]
-
+[Model category of groupoids][model-grpds]
 
 ----------------------------------------------
 # Research #
@@ -43,3 +43,4 @@ title: Mathematical scribblings
 [Order-onto-logically]: 2017-05-17-The-ontology-of-order-relation.html
 [2-cat Top]: 2017-05-18-The-2-category-of-toposes.html
 [lift-monad-topos]: 2017-05-22-Lifting-of-monads-to-Grothendieck-toposes.html
+[model-grpds]: 2017-05-29-Model-category-of-groupoids

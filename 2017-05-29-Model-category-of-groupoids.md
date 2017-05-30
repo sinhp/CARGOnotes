@@ -26,3 +26,13 @@ One handy example of a covering map is the quotient map $\bb{R}^2 \to \bb{T}$ wh
 **Remark:**  If $f : A \to B$ is a map  whereby $A$ is path connected then the pullback of $p$ along $f$, that is $\str{f}p $ is
 a covering map. 
 
+
+There is fundamental lifting type theorem associated to covering maps; **the unique path lifting theorem**. You can find its proof in section 3.2. of Peter May's [A Concise Course in Algebraic Topology][1]. 
+
+Lifting of paths and homotopies written in terms of $2$-functor $\Pi$ yields that $e/P: e/\Pi(E) \to p(e)/\Pi(B)$ is an isomorphism of groupoids and furthermore the functor $P: \Pi(E) \to \Pi(B)$ is surjective on objects. 
+
+
+
+
+
+[1]: https://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf

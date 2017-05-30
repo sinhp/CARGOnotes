@@ -29,7 +29,16 @@ a covering map.
 
 There is fundamental lifting type theorem associated to covering maps; **the unique path lifting theorem**. You can find its proof in section 3.2. of Peter May's [A Concise Course in Algebraic Topology][1]. 
 
-Lifting of paths and homotopies written in terms of $2$-functor $\Pi$ yields that $e/P: e/\Pi(E) \to p(e)/\Pi(B)$ is an isomorphism of groupoids and furthermore the functor $P: \Pi(E) \to \Pi(B)$ is surjective on objects. 
+Lifting of paths and homotopies written in terms of $2$-functor $\Pi$ yields that $e/P: e/\Pi(E) \to p(e)/\Pi(B)$ is an isomorphism of groupoids for any point $e \in E$, and furthermore the functor $\Pi(p): \Pi(E) \to \Pi(B)$ is surjective on objects. 
+
+This motivates us to define the notion of _Covering functors_ of groupoids: For groupoids $\cat{E}$ and $\cat{B}$, a functor $P: \cat{E} \to \cat{B}$ is a covering functor if 
+  1. it is surjective on objects 
+  2. $e/\cat{E} \to P(e)/cat{B}$ is an isomorphism of categories. 
+  
+**Remark**: For any groupoid $\cat{E}$, there is only a unique morphism between any two objects of $e/\cat{E}$. So, isomorphism of such coslice categories means  isomorphism of their object set. 
+
+
+
 
 
 

@@ -37,7 +37,7 @@ This motivates us to define the notion of _Covering functors_ of groupoids: For 
   
 **Remark**: For any groupoid $\cat{E}$, there is only a unique morphism between any two objects of $e/\cat{E}$. So, isomorphism of such coslice categories means  isomorphism of their object sets. 
 
-**Remark**: If the groupoid $\cat{E}$ is connected then it is sufficient to check the second condition of covering only for a single object $e$ of $\cat{E}$.  
+**Remark**: If the groupoid $\cat{E}$ is connected then it is sufficient to check the second condition of covering only for a single object $e$ of $\cat{E}$.  This is because for any other object $e\pr$ there is a morphism $h: e \to e\pr$ in groupoid $\cat{E}$, and the top and bottom functors, defined by precomposition with $h$, are isomorphism as well as the right leg in the following diagram.   
 
 <div style="text-align:center"><img src="{{ site.baseurl }}/assets/2017-05-29/Grpd-conj.JPG" alt="Groupoid conjugation" > </div>
 

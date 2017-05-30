@@ -39,6 +39,7 @@ $$
 \newcommand{\th}{\mathbf{Th}}
 \newcommand{\cl}{\mathbf{Cl}}
 \newcommand{\ob}{\mathbf{Ob}}
+\newcommand{\aut}{\mathbf{AUT}}
 \newcommand{\bun}{\mathbf{Bun}} 
 \newcommand{\geom}{\mathbf{Geom}}
 \def\catg{\mathop{\mathcal{C}\! {\it at}}\nolimits}

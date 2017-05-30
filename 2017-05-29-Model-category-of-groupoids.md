@@ -17,7 +17,9 @@ comments: true
 
 ## The fundamental groupoid $2$-functor 
 
-There is a strict $2$-fucntor $\Pi : \top \to \grpd$ which associates to every topological space its fundamental groupoid, to a continuous map of spaces, a functor of groupoids, and to a homotopy of maps, an iso natural transformation. Let's see how this works in more details: 
+There is a strict $2$-fucntor $\Pi : \top \to \grpd$ which associates to every topological space its fundamental groupoid, to a continuous map of spaces, a functor of groupoids, and to a homotopy of maps, an iso natural transformation. 
+
+For each groupoid $\cat{C}$ and each object $c$ of $\cat{C}$, $\pi(\cat{C}, c)$ is the full subgroupoid of $\cat{C}$ with only one object namely $c$. So, $\pi(\cat{C}, c) (c,c) = \aut_{\cat{C}} (c)$ Composing wiht $\Pi$, we get the familiar fundamental groups at different points.  
 
  
 We recall from algebraic topology that a continuous map $p:E \to B$ is said to be a _covering map_ (or space $E$ a covering space over $B$) whenever for every $x \in B$ there is an open neighbourhood $U$ containing $x$ such that $p^{-1} (U) = \amalg_{i \in I} V_i$, a disjoint union of open sets $V_i$ in $E$ such that $ p|_{V_i}: V_i \cong U $. 
@@ -41,9 +43,9 @@ This motivates us to define the notion of _Covering functors_ of groupoids: For 
 
 <div style="text-align:center"><img src="{{ site.baseurl }}/assets/2017-05-29/Grpd-conj.JPG" alt="Groupoid conjugation" > </div>
 
+Also, it follows that for any covering functor of (connected) groupoids, and any $e$ in $\cat{E}$ the induced map of groups is monomorphism:   
 
-
-
+<div style="text-align:center"><img src="{{ site.baseurl }}/assets/2017-05-29/Fund-grp.JPG" alt="Groupoid conjugation" > </div>
 
 
 [1]: https://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf

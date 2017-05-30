@@ -33,7 +33,7 @@ Lifting of paths and homotopies written in terms of $2$-functor $\Pi$ yields tha
 
 This motivates us to define the notion of _Covering functors_ of groupoids: For groupoids $\cat{E}$ and $\cat{B}$, a functor $P: \cat{E} \to \cat{B}$ is a covering functor if 
   1. it is surjective on objects 
-  2. $e/\cat{E} \to P(e)/cat{B}$ is an isomorphism of categories. 
+  2. $e/\cat{E} \to P(e)/\cat{B}$ is  isomorphism of categories. 
   
 **Remark**: For any groupoid $\cat{E}$, there is only a unique morphism between any two objects of $e/\cat{E}$. So, isomorphism of such coslice categories means  isomorphism of their object set. 
 

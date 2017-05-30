@@ -4,7 +4,7 @@ $$
 \newcommand{\y}{\rv y} 
 %------------------- bars---------------------
 \newcommand{\bar}[1]{\overline{#1}}
-\newcommand{\slash}[2]{{\raisebox{.2em}{$#1$}\left/\raisebox{-.2em}{$#2$}\right.}}
+
 %------------------tildes--------------------------
 \newcommand{\wtil}[1]{\widetilde{#1}}
 \newcommand{\what}[1]{\widehat{#1}}

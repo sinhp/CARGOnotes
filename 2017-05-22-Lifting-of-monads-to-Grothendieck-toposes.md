@@ -42,7 +42,7 @@ A _right Kan extension of $F$ along $G$_ is the following data:
 
 Note that such a $1$-cell $K$ must be unique up to unique isomorphism. Hence we denote it by $Ran_{F} G$ 
 
-** Note:** 
+**Note:** 
 In the case that the $2$-category $\frk{M}$ is poset-enriched we get familiar cancellation rule corresponding to the right Kan extension:
 
 $$\Updownarrow \frac{KF \leq G}{K \leq Ran_{F} G}$$
@@ -52,10 +52,10 @@ And for the left Kan extension, we get:
 $$\Updownarrow \frac{G \leq KF}{Lan_{F} G \leq K}$$
 
 
-** Remark:** 
+**Remark:** 
 Limit of a diagram $G: \cat{A} \to \cat{E}$ is obtained as the right extension of $G$ along the unique functor $!: \cat{A} \to 1$. Similarly, colimit of a diagram $G: \cat{A} \to \cat{E}$ is obtained as the left extension of $G$ along the unique functor $!: \cat{A} \to 1$.  
 
-** Remark:** 
+**Remark:** 
 $\lang Lan_{F} G, \eta \rang$ is the initial object in the comma category $G/\str{F}$, and  $\lang Ran_{F} G, \ep \rang$ is the terminal object in the comma category $\str{F}/G$ 
 
 

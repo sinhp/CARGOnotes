@@ -35,9 +35,11 @@ This motivates us to define the notion of _Covering functors_ of groupoids: For 
   1. it is surjective on objects 
   2. $e/\cat{E} \to P(e)/\cat{B}$ is  isomorphism of categories. 
   
-**Remark**: For any groupoid $\cat{E}$, there is only a unique morphism between any two objects of $e/\cat{E}$. So, isomorphism of such coslice categories means  isomorphism of their object set. 
+**Remark**: For any groupoid $\cat{E}$, there is only a unique morphism between any two objects of $e/\cat{E}$. So, isomorphism of such coslice categories means  isomorphism of their object sets. 
 
+**Remark**: If the groupoid $\cat{E}$ is connected then it is sufficient to check the second condition of covering only for a single object $e$ of $\cat{E}$.  
 
+<div style="text-align:center"><img src="{{ site.baseurl }}/assets/2017-05-29/Grpd-conj.JPG" alt="Groupoid conjugation" > </div>
 
 
 

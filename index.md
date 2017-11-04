@@ -23,12 +23,11 @@ These are the notes from the talks I have given in the [category theory reading 
 ----------------------------------------------
 # Philosophy of mathematics #
 
+[//]: <> (This is also a comment.)
+[//]: <> ([Topos, being, and existence.][TBE])
+[//]: <> ([The ontology of order relation.][Order-onto-logically])
 
-[Topos, being, and existence.][TBE]
 
-{% comment %}
-{% [The ontology of order relation.][Order-onto-logically] %}
-{% endcomment %}
 
 
 

@@ -1,11 +1,10 @@
 markdown: kramdown
 
-title: Mathematical scribblings
-description: A math blog
+title: Scribbling
+description: maths notes
 avatar: https://avatars2.githubusercontent.com/u/12698604?v=3
 google_analytics: true
 show_downloads: true
-theme: jekyll-theme-merlot
 email:   sinahazratpour@gmail.com
 facebook: sina.bham
 github: sinhp/sinhp.github.io.
